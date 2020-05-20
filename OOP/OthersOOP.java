@@ -1,5 +1,5 @@
-import java.io.FileWriter; //남의 클래스는 import
-import java.io.IOException; //파일이 없으 경우의 예외 처리
+import java.io.FileWriter; // 남의 클래스 import
+import java.io.IOException; // 파일이 없으 경우의 예외 처리
 
 public class OthersOOP {
 
@@ -11,7 +11,7 @@ public class OthersOOP {
 		System.out.println(Math.floor(1.8));
 		System.out.println(Math.ceil(1.8));
 		
-		FileWriter f1 = new FileWriter("data.txt"); //인스턴스 선언은 new 키워드가 사용됨
+		FileWriter f1 = new FileWriter("data.txt"); // 인스턴스 선언은 new 키워드가 사용됨
 		f1.write("Hello");
 		f1.write(" Java");
 		

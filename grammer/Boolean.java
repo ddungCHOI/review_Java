@@ -1,5 +1,3 @@
-package grammer;
-
 public class Boolean {
     public static void main(String[] args) {
 		
@@ -10,7 +8,7 @@ public class Boolean {
 		System.out.println(false);
 		
 		String foo = "Hello world";
-		// String true = "Hello world"; 예약어는 변수로 지정하지 못함
+		// String true = "Hello world"; 예약어(true)는 변수로 지정하지 못함
         // 멤버 : 하나의 클래스 내 변수와 메소드들 
         
 		System.out.println(foo.contains("world"));

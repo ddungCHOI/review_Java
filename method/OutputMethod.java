@@ -1,4 +1,4 @@
-
+// 클래스 내에서 메소드 선언 및 사용
 public class OutputMethod {
 	
 	public static String a() {

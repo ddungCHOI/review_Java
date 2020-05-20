@@ -3,6 +3,7 @@ public class AuthApp2 {
 
 	public static void main(String[] args) {
 		
+		// args가 필요할 때 : javac로 클래스 생성 후 "java AuthApp args1 args2"
 		String id = "egoing";
 		String inputId = args[0];
 		

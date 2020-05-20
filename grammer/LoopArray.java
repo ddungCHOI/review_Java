@@ -2,11 +2,6 @@
 public class LoopArray {
 
 	public static void main(String[] args) {
-		/*
-		 *  <li>egoing</li>
-		 *  <li>jinhuck</li>
-		 *  <li>youbin</li>
-		 */
 		
 		String[] users = new String[3];
 		users[0] = "egoing";

@@ -3,12 +3,12 @@ public class ArrayApp {
 
 	public static void main(String[] args) {
 		
-		// egoing, jinhuck, youbin 
-//		String users = "egoing, jinhuck, youbin";
-		String[] users = new String[3]; //갯수는 1부터
-		users[0] = "egoing"; //카운트는 0부터
-		users[1] = "jinhuck";
-		users[2] = "youbin";
+		// 배열
+		// String users = "egoing, jinhuck, youbin";
+		String[] users = new String[3]; // 갯수는 1부터
+		users[0] = "usr1"; // 카운트는 0부터
+		users[1] = "usr2";
+		users[2] = "usr3";
 		
 		System.out.println(users[1]);
 		System.out.println(users.length);

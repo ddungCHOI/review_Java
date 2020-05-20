@@ -2,7 +2,7 @@ class Accounting{
 	// 클래스화 : 비슷한 기능을 하는 메소드들을 그룹
 	public double valueOfSupply;
 	public static double vatRate = 0.1;
-	// valueOfSupply를 매번 변경해야 하지만 꼭 필요하므로 생성자로
+	// valueOfSupply를 매번 변경해야 하지만 꼭 필요하므로 생성자로 만든다. 생성자는 메소드명이 클래스명과 같은 메소드
     public Accounting(double valueOfSupply) {
     	this.valueOfSupply = valueOfSupply; // this.valueOfSupply 는 인스턴스 변수를 가리킴 → this는 인스턴스를 가리킴
     }
